@@ -1,5 +1,5 @@
 These two lines of code are exceptional than camera:
-
+```
 Intent iGallery = new Intent(Intent.ACTION_PICK);
 iGallery.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 
@@ -46,3 +46,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+```
